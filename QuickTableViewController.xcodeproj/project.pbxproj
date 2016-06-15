@@ -234,9 +234,11 @@
 				TargetAttributes = {
 					B5334F121B8CC5BD00C64A6D = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 					};
 					B5334F1D1B8CC5BD00C64A6D = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -458,6 +460,7 @@
 				PRODUCT_NAME = QuickTableViewController;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -475,6 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.bcylin.QuickTableViewController;
 				PRODUCT_NAME = QuickTableViewController;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -494,6 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neuvie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = QuickTableViewControllerTests;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -509,6 +514,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neuvie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = QuickTableViewControllerTests;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
