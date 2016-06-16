@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911352237B76802511760FA4 /* Pods_QuickTableViewControllerTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7FC2256A1AA1A91D29D91A /* Pods_QuickTableViewControllerTests_iOS.framework */; };
 		B5334F191B8CC5BD00C64A6D /* QuickTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5334F181B8CC5BD00C64A6D /* QuickTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5334F1F1B8CC5BD00C64A6D /* QuickTableViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5334F131B8CC5BD00C64A6D /* QuickTableViewController.framework */; };
 		B5334F261B8CC5BD00C64A6D /* QuickTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5334F251B8CC5BD00C64A6D /* QuickTableViewControllerTests.swift */; };
@@ -22,7 +23,6 @@
 		B5DB7D351C4CBB74007B84D2 /* SectionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB7D341C4CBB74007B84D2 /* SectionSpec.swift */; };
 		B5DB94351BE117EE00E2CEDE /* SubtitleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB94341BE117EE00E2CEDE /* SubtitleSpec.swift */; };
 		B5EC18231B95FD7F0015C665 /* QuickTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC18221B95FD7F0015C665 /* QuickTableModel.swift */; };
-		FF8297A8D19F7A7D07F7A3B5 /* Pods_QuickTableViewControllerTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6738103209734C5D62BC036 /* Pods_QuickTableViewControllerTests_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 /* Begin PBXFileReference section */
 		059B5B35F5A6483C5E372281 /* Pods-QuickTableViewControllerTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableViewControllerTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableViewControllerTests-iOS/Pods-QuickTableViewControllerTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		158C763C8416FB9E76150C3A /* Pods-QuickTableViewControllerTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableViewControllerTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableViewControllerTests-iOS/Pods-QuickTableViewControllerTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7FC2256A1AA1A91D29D91A /* Pods_QuickTableViewControllerTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableViewControllerTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5334F131B8CC5BD00C64A6D /* QuickTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5334F171B8CC5BD00C64A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		B5334F181B8CC5BD00C64A6D /* QuickTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuickTableViewController.h; path = Source/QuickTableViewController.h; sourceTree = SOURCE_ROOT; };
@@ -49,8 +50,6 @@
 		B578B5081C5673240021F7C3 /* icon-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-highlighted.png"; sourceTree = "<group>"; };
 		B57FAA6C1C512D5B008FF7C7 /* QuickTableViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTableViewControllerSpec.swift; sourceTree = "<group>"; };
 		B595627A1B9758BC00D6DAB1 /* QuickTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickTableViewCell.swift; path = Source/QuickTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		B5DB7D201C4A4BDC007B84D2 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		B5DB7D211C4A4BDC007B84D2 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		B5DB7D251C4B7F0E007B84D2 /* IconSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconSpec.swift; sourceTree = "<group>"; };
 		B5DB7D2C1C4B8294007B84D2 /* NavigationRowSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRowSpec.swift; sourceTree = "<group>"; };
 		B5DB7D2E1C4B95D3007B84D2 /* SwitchRowSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowSpec.swift; sourceTree = "<group>"; };
@@ -58,7 +57,6 @@
 		B5DB7D341C4CBB74007B84D2 /* SectionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionSpec.swift; sourceTree = "<group>"; };
 		B5DB94341BE117EE00E2CEDE /* SubtitleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleSpec.swift; sourceTree = "<group>"; };
 		B5EC18221B95FD7F0015C665 /* QuickTableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickTableModel.swift; path = Source/QuickTableModel.swift; sourceTree = SOURCE_ROOT; };
-		E6738103209734C5D62BC036 /* Pods_QuickTableViewControllerTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableViewControllerTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8297A8D19F7A7D07F7A3B5 /* Pods_QuickTableViewControllerTests_iOS.framework in Frameworks */,
+				911352237B76802511760FA4 /* Pods_QuickTableViewControllerTests_iOS.framework in Frameworks */,
 				B5334F1F1B8CC5BD00C64A6D /* QuickTableViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,9 +152,7 @@
 		B5DB7D241C4A4BEC007B84D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B5DB7D201C4A4BDC007B84D2 /* Nimble.framework */,
-				E6738103209734C5D62BC036 /* Pods_QuickTableViewControllerTests_iOS.framework */,
-				B5DB7D211C4A4BDC007B84D2 /* Quick.framework */,
+				7B7FC2256A1AA1A91D29D91A /* Pods_QuickTableViewControllerTests_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -533,7 +529,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -554,7 +549,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = QuickTableViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
