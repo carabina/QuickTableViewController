@@ -16,7 +16,6 @@ before_install:
 install:
   - bundle install --without development --deployment --jobs=3 --retry=3
   - bundle exec pod install --no-repo-update
-  - carthage bootstrap --no-use-binaries --platform ios
 script:
   - bundle exec scan --scheme $SCHEME
 after_success:

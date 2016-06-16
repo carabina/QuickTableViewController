@@ -1,7 +1,11 @@
 PODS:
+  - Nimble (4.0.1)
+  - Quick (0.9.2)
   - QuickTableViewController (0.3.0)
 
 DEPENDENCIES:
+  - Nimble
+  - Quick
   - QuickTableViewController (from `./`)
 
 EXTERNAL SOURCES:
@@ -9,8 +13,10 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
+  Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
   QuickTableViewController: bc76620e7c3b7dbc283c92ca494c72622df22fc7
 
-PODFILE CHECKSUM: a67d9f405f937f2a61d484d8275f7081f5de635b
+PODFILE CHECKSUM: 45033c331771142ec20b23ff3ad1b9685dd573c8
 
 COCOAPODS: 1.0.1

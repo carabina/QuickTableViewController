@@ -15,8 +15,6 @@
 		B578B50A1C5673240021F7C3 /* icon-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B578B5081C5673240021F7C3 /* icon-highlighted.png */; };
 		B57FAA6E1C513454008FF7C7 /* QuickTableViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57FAA6C1C512D5B008FF7C7 /* QuickTableViewControllerSpec.swift */; };
 		B595627B1B9758BC00D6DAB1 /* QuickTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595627A1B9758BC00D6DAB1 /* QuickTableViewCell.swift */; };
-		B5DB7D221C4A4BDC007B84D2 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DB7D201C4A4BDC007B84D2 /* Nimble.framework */; };
-		B5DB7D231C4A4BDC007B84D2 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DB7D211C4A4BDC007B84D2 /* Quick.framework */; };
 		B5DB7D271C4B7F74007B84D2 /* IconSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB7D251C4B7F0E007B84D2 /* IconSpec.swift */; };
 		B5DB7D2D1C4B8294007B84D2 /* NavigationRowSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB7D2C1C4B8294007B84D2 /* NavigationRowSpec.swift */; };
 		B5DB7D2F1C4B95D3007B84D2 /* SwitchRowSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB7D2E1C4B95D3007B84D2 /* SwitchRowSpec.swift */; };
@@ -24,6 +22,7 @@
 		B5DB7D351C4CBB74007B84D2 /* SectionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB7D341C4CBB74007B84D2 /* SectionSpec.swift */; };
 		B5DB94351BE117EE00E2CEDE /* SubtitleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB94341BE117EE00E2CEDE /* SubtitleSpec.swift */; };
 		B5EC18231B95FD7F0015C665 /* QuickTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC18221B95FD7F0015C665 /* QuickTableModel.swift */; };
+		FF8297A8D19F7A7D07F7A3B5 /* Pods_QuickTableViewControllerTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6738103209734C5D62BC036 /* Pods_QuickTableViewControllerTests_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059B5B35F5A6483C5E372281 /* Pods-QuickTableViewControllerTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableViewControllerTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableViewControllerTests-iOS/Pods-QuickTableViewControllerTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		158C763C8416FB9E76150C3A /* Pods-QuickTableViewControllerTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableViewControllerTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableViewControllerTests-iOS/Pods-QuickTableViewControllerTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B5334F131B8CC5BD00C64A6D /* QuickTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5334F171B8CC5BD00C64A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		B5334F181B8CC5BD00C64A6D /* QuickTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuickTableViewController.h; path = Source/QuickTableViewController.h; sourceTree = SOURCE_ROOT; };
@@ -57,6 +58,7 @@
 		B5DB7D341C4CBB74007B84D2 /* SectionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionSpec.swift; sourceTree = "<group>"; };
 		B5DB94341BE117EE00E2CEDE /* SubtitleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleSpec.swift; sourceTree = "<group>"; };
 		B5EC18221B95FD7F0015C665 /* QuickTableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickTableModel.swift; path = Source/QuickTableModel.swift; sourceTree = SOURCE_ROOT; };
+		E6738103209734C5D62BC036 /* Pods_QuickTableViewControllerTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableViewControllerTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DB7D221C4A4BDC007B84D2 /* Nimble.framework in Frameworks */,
-				B5DB7D231C4A4BDC007B84D2 /* Quick.framework in Frameworks */,
+				FF8297A8D19F7A7D07F7A3B5 /* Pods_QuickTableViewControllerTests_iOS.framework in Frameworks */,
 				B5334F1F1B8CC5BD00C64A6D /* QuickTableViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,10 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069BD8689127E0FC49A280CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158C763C8416FB9E76150C3A /* Pods-QuickTableViewControllerTests-iOS.debug.xcconfig */,
+				059B5B35F5A6483C5E372281 /* Pods-QuickTableViewControllerTests-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B5334F091B8CC5BD00C64A6D = {
 			isa = PBXGroup;
 			children = (
 				B5DB7D241C4A4BEC007B84D2 /* Frameworks */,
+				069BD8689127E0FC49A280CF /* Pods */,
 				B5334F141B8CC5BD00C64A6D /* Products */,
 				B5334F151B8CC5BD00C64A6D /* QuickTableViewController */,
 				B5334F221B8CC5BD00C64A6D /* QuickTableViewControllerTests */,
@@ -144,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				B5DB7D201C4A4BDC007B84D2 /* Nimble.framework */,
+				E6738103209734C5D62BC036 /* Pods_QuickTableViewControllerTests_iOS.framework */,
 				B5DB7D211C4A4BDC007B84D2 /* Quick.framework */,
 			);
 			name = Frameworks;
@@ -206,11 +218,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5334F2C1B8CC5BD00C64A6D /* Build configuration list for PBXNativeTarget "QuickTableViewControllerTests-iOS" */;
 			buildPhases = (
+				A2B6EF609EDBEC721F08B11C /* [CP] Check Pods Manifest.lock */,
 				B5C335A91D07CBD000C706A4 /* Swift Lint */,
 				B5334F1A1B8CC5BD00C64A6D /* Sources */,
 				B5334F1B1B8CC5BD00C64A6D /* Frameworks */,
 				B5334F1C1B8CC5BD00C64A6D /* Resources */,
-				B5DB7D1F1C4A4BA3007B84D2 /* Copy Carthage Built Frameworks */,
+				F6F6557299028106DB3E1F52 /* [CP] Embed Pods Frameworks */,
+				308304AA48A318D5851DD369 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +294,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		308304AA48A318D5851DD369 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableViewControllerTests-iOS/Pods-QuickTableViewControllerTests-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B6EF609EDBEC721F08B11C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		B5C335A91D07CBD000C706A4 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,21 +338,20 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then swiftlint; fi";
 		};
-		B5DB7D1F1C4A4BA3007B84D2 /* Copy Carthage Built Frameworks */ = {
+		F6F6557299028106DB3E1F52 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
 			);
-			name = "Copy Carthage Built Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableViewControllerTests-iOS/Pods-QuickTableViewControllerTests-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -485,6 +528,7 @@
 		};
 		B5334F2D1B8CC5BD00C64A6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158C763C8416FB9E76150C3A /* Pods-QuickTableViewControllerTests-iOS.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -505,6 +549,7 @@
 		};
 		B5334F2E1B8CC5BD00C64A6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059B5B35F5A6483C5E372281 /* Pods-QuickTableViewControllerTests-iOS.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
